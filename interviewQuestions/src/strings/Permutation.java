@@ -8,7 +8,9 @@ public class Permutation {
     public static void main(String[] args) {
         permutation("Bakary");
 
-        list.forEach(e -> System.out.println(e));
+        for (String s: list){
+            System.out.println(s);
+        }
     }
     private static  void permutation(String w){
         permutation(w, "");
